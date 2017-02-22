@@ -27,7 +27,16 @@ scripts to run ivy:
 Before you start to develop the connector you need to run runivy.cmd. After you validate everything works, run runivy-export.cmd.
 This will delete all jars in the userlib folder and only download the jars required for creating the connector mpk.
 
- [1]: docs/images/google_analytics_toolbox.png
- [2]: https://developers.google.com/analytics/devguides/collection/protocol/v1/
- [3]: docs/images/ga_track_event_example.png
+## License
 
+This connector is licensed under the Apache v2 license.
+
+## Changelog
+
+2017-feb-22 - revision 1.0
+
+ * Track events, pageviews and exceptions using microflow actions
+ 
+  [1]: docs/images/google_analytics_toolbox.png
+  [2]: https://developers.google.com/analytics/devguides/collection/protocol/v1/
+  [3]: docs/images/ga_track_event_example.png
